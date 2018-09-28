@@ -10,7 +10,7 @@ $ pip install elasticsearch
 ```
 
 ## 批次上傳
-# 上傳資料格式
+### 上傳資料格式
 | _index | _type | _id | 欄名1 | 欄名2 | 欄名3 | 欄名... |
 | --- | --- | --- | --- | --- | --- | --- |
 | Taiwan | Tutorial | 1 | abc | def | ghi | jkl |
