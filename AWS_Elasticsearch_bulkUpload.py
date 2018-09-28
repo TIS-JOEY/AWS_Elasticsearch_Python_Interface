@@ -32,14 +32,13 @@ class AWSes:
 		print("Login Success")
 
 	def create_bulk(self,read_file,write_file):
-		'''
-		來源為xls格式，產生符合格式之資料檔
-		'''
+		#目的：產生符合格式之資料上傳檔
+		
 
-		#讀取原始檔
+		#讀取原始檔，格式為xlsx檔
 		df = pd.read_excel(read_file)
 		
-		#創建寫入暫存檔
+		#創建寫入暫存檔，格式為JSON檔
 		write_to_file = open(write_file,'w')
 
 		#取得欄名
