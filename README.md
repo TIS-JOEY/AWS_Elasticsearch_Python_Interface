@@ -39,7 +39,8 @@ awses.create_bulk('欲上傳原始檔目錄位置(須為xlsx檔格式)','暫存�
 ```
 
 
-
+有關於AWS Elasticsearch與Kibana建置與連結可至以下傳送門查看
+* [AWS_Elasticsearch-Kibana_建置教學](https://github.com/TIS-JOEY/AWS_Elasticsearch-Kibana_Setup_Tutorial)
 
 
 Python Elasticsearch Client 
