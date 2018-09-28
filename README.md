@@ -1,5 +1,3 @@
-# AWS_Elasticsearch_Python_Interface
-
 # 基於Python Elasticsearch Client 與 aws-requests-auth，以Sign4簽署協議進行AWS Elasticsearch數據操作
 
 
@@ -20,6 +18,8 @@ $ pip install elasticsearch
 Elasticsearch的分散式儲存系統也是採Nosql格式儲存(以JSON格式)，因此每筆資料的欄位可彈性調整，並不用像RDBMS需先預定義好欄位且不得更動。
 > AWS_Elasticsearch_bulkUpload.py所能讀取的資料格式為xlsx檔。
 
+
+
 ### 批次資料上傳說明
 IAM user的access key id與IAM user的secret access key的取得教學，可至下方傳送門查看
 * [AWS IAM 建置教學](aws-iam-jian-zhi-jiao-xue.md)
@@ -39,12 +39,17 @@ awses.create_bulk('欲上傳原始檔目錄位置(須為xlsx檔格式)','暫存�
 ```
 
 
+
+
 有關於AWS Elasticsearch與Kibana建置與連結可至以下傳送門查看
 * [AWS_Elasticsearch-Kibana_建置教學](https://github.com/TIS-JOEY/AWS_Elasticsearch-Kibana_Setup_Tutorial)
 
 
-Python Elasticsearch Client 
-資料來源：https://elasticsearch-py.readthedocs.io/en/master/ 
 
-aws-requests-auth
-資料來源：https://github.com/DavidMuller/aws-requests-auth 
+
+
+
+
+資料來源：
+Python Elasticsearch Client ：https://elasticsearch-py.readthedocs.io/en/master/ 
+aws-requests-auth：https://github.com/DavidMuller/aws-requests-auth 
