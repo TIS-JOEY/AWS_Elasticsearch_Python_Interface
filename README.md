@@ -51,5 +51,7 @@ awses.create_bulk('欲上傳原始檔目錄位置(須為xlsx檔格式)','暫存�
 
 
 資料來源：
+
 Python Elasticsearch Client ：https://elasticsearch-py.readthedocs.io/en/master/ 
+
 aws-requests-auth：https://github.com/DavidMuller/aws-requests-auth 
