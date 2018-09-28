@@ -15,5 +15,8 @@ $ pip install elasticsearch
 
 
 
-Python Elasticsearch Client 資料來源：https://elasticsearch-py.readthedocs.io/en/master/ 
-aws-requests-auth 資料來源：https://github.com/DavidMuller/aws-requests-auth 
+Python Elasticsearch Client 
+資料來源：https://elasticsearch-py.readthedocs.io/en/master/ 
+
+aws-requests-auth
+資料來源：https://github.com/DavidMuller/aws-requests-auth 
