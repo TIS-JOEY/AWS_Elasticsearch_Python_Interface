@@ -74,6 +74,7 @@ class AWSes:
 
 			
 			except:
+				# 進行異常錯誤處理，並記錄發生錯誤的id
 				err_type,err_message,err_traceback_object = sys.exc_info()
 				print('error類型:{0},\nerror訊息:{1},\n目前寫入到{2}號'.format(err_type,err_message,self.current_index))
 
