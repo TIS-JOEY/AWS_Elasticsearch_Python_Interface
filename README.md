@@ -1,6 +1,6 @@
 # 基於Python Elasticsearch Client 與 aws-requests-auth，以Sign4簽署協議進行AWS Elasticsearch數據操作
 
-# 目的：
+## 目的：
 有鑒於目前對於AWS Elasticsearch的中文資源相當稀少，因此分享個人對於AWS Elasticsearch&Kibana的完整建置教學。
 
 ## 前置作業：
